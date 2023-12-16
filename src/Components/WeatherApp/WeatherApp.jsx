@@ -16,6 +16,7 @@ const WeatherApp = () => {
   let api_key=process.env.REACT_APP_API_KEY;
   
   const [wicon,setwicon] =useState(cloud_icon);
+  console.log("He");
   const search =async () => {
     const element=document.getElementsByClassName("cityInput");
     if(element[0].value==="")
